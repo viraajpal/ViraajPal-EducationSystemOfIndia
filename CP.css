@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+    height: 100vh;
+}
+.main-page{
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px ;
+    color: black;
+    font-family: cursive;
+}
+.central-universities-evolution{
+    margin: 5px;
+}
+.central-universities-evolution p{
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.top-university{
+    margin: 5px;
+}
+.top-university table{
+    margin: 20px;
+    font-size: 16px;
+    border-color: black;
+}
+.short-note{
+    margin: 5px;
+}
+.short-note p{
+    margin: 10px;
+    display: flex;
+    justify-content: right;
+}
+.short-note img{
+    height: 250px;
+    display: flex;
+}
+.jnu::after{
+    content: "";
+	clear: both;
+	display: table;
+}
+.content{
+    float: left;
+	width: 50%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.hyderabad-university::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.content2{
+    float: right;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.bhu::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.content3{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}

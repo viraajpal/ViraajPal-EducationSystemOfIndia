@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+    height: 100vh;
+}
+.main-page{
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px ;
+    color: black;
+    font-family: cursive;
+}
+.types-of-university{
+    border: 2px solid black;
+    margin: 5px;
+}
+.types-of-university{
+    border: 4px solid;
+}
+.types-of-university tr th{
+    border: 2px solid blue;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.types-of-university tr td{
+    border: 2px solid blue;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.types-of-university tr td p{
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.university-evolution{
+    font-family: cursive;
+}
+.university-evolution p{
+    font-family: cursive;
+    margin: 0 10px;
+}
+.top-university{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+}
+.top-university caption h2{
+    /* border: 2px solid blue; */
+    margin: 2px 2px;
+}
+.top-university table{
+    /* border: 2px solid blue; */
+    margin: 4px;
+}
+.central-universities{
+    margin: 5px;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.state-universities{
+    margin: 5px;
+    border: 4px solid black;
+}
+.deemed-universities{
+    border: 4px solid black;
+    margin: 5px;
+}
+.private-universities{
+    border: 4px solid black;
+    margin: 5px;
+}
+.open-universities{
+    border: 4px solid black;
+    margin: 5px;
+}
